@@ -1,7 +1,5 @@
 
-FROM alpine:3.14.6
-
-MAINTAINER ops@lifen.fr
+FROM alpine:latest
 
 RUN apk update \
     && apk upgrade \
